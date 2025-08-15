@@ -46,9 +46,6 @@ class TelegramBot:
         
         # Comandos de administração
         self.application.add_handler(CommandHandler("admin", self.admin_command))
-        self.application.add_handler(CommandHandler("addproduct", self.add_product_command))
-        self.application.add_handler(CommandHandler("editproduct", self.edit_product_command))
-        self.application.add_handler(CommandHandler("config", self.config_command))
         
         # Callbacks de botões inline
         self.application.add_handler(CallbackQueryHandler(self.button_callback))

@@ -284,7 +284,7 @@ Obrigado pela compra! 🎉"""
 
 💡Selecione uma opção para recarregar:
 
-Para recarregar via PIX, digite o valor desejado (mínimo R${bot_config.get('min_recharge', '1.00'})).
+Para recarregar via PIX, digite o valor desejado (mínimo R${bot_config.get('min_recharge', '1.00')}).
 
 Exemplo: 10.50"""
         
