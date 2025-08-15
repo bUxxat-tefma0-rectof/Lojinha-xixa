@@ -1,0 +1,44 @@
+{
+  "name": "joaozinho-store-bot",
+  "version": "1.0.0",
+  "description": "Sistema completo de loja com WhatsApp e Telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "whatsapp": "node whatsapp-bot.js",
+    "telegram-store": "node telegram-store-bot.js",
+    "telegram-admin": "node telegram-admin-bot.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "sqlite3": "^5.1.6",
+    "node-telegram-bot-api": "^0.64.0",
+    "qrcode": "^1.5.3",
+    "moment": "^2.29.4",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "uuid": "^9.0.1",
+    "multer": "^1.4.5-lts.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.7",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "whatsapp",
+    "telegram",
+    "bot",
+    "store",
+    "pix",
+    "ecommerce"
+  ],
+  "author": "Joãozinho Store",
+  "license": "ISC"
+}
